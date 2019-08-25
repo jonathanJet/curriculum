@@ -25,7 +25,7 @@
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
 	position: relative; 
-	z-index: 100;
+	z-index: 0;
 	pointer-events: auto;
 	opacity: 1;
 }
@@ -42,11 +42,11 @@
 
 .cbp-qtprogress {
 	position: absolute;
-	background: #47a3da;
+	background: #666;
 	height: 1px;
 	width: 0%;
 	top: 0;
-	z-index: 1000;
+	z-index: 0;
 }
 
 .cbp-qtrotator blockquote {

@@ -1,6 +1,6 @@
 (function($){
 
-	$( '#cbp-qtrotator' ).cbpQTRotator();
+	$( '#cbp-qtrotator' ).cbpQTRotator({interval :5000});
 
 	/* ---------------------------------------------- /*
 	 * Preloader
