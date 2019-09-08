@@ -6,7 +6,7 @@ body {
 }
 	
 #home{
-	background: url(https://www.aricheryou.com/wp-content/uploads/2018/01/emile-perron-190221-1024x576.jpg);
+	background: url("../images/back_ground.jpg");
 	background-color: #222;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ body {
 
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
-    background-image: url("https://scripteden.com/previews/Clean/assets/images/pattern.png");
+    background-image: url("../images/pattern.png");
     background-repeat: repeat;
     height: 101%;
     left: 0;
@@ -551,3 +551,28 @@ a {
     color: #E7746F;
 
 }
+
+.img-certificate{
+    height: 119px;
+    width: 250px;
+}
+
+.targets-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.targets-wrapper a{
+    flex-basis: 33%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} 
+
+.cbp-qtrotator{
+    margin: 0em auto 0em auto;
+    min-height: unset;
+}
+

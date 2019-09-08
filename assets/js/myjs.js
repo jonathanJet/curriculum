@@ -102,6 +102,11 @@ $(document).ready(function() {
 
 	});
 
+  new jBox('Image', {
+    imageCounter: true,
+    imageCounterSeparator: ' of '
+  });
+
 
 })(jQuery);
 
