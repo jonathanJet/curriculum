@@ -565,14 +565,20 @@ a {
 
 .targets-wrapper a{
     flex-basis: 33%;
-    margin-top: 20px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 } 
 
 .cbp-qtrotator{
     margin: 0em auto 0em auto;
     min-height: unset;
+}
+
+.txt-certificate{
+    flex-basis: 100%;
+    text-align: center;
 }
 
