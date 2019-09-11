@@ -478,6 +478,18 @@ figure.effect-bubba:hover p {
     }
 }
 
+@media (max-width: 575px) {
+    .cbp-qtrotator blockquote{
+        text-align: center;
+    }
+    .cbp-qtrotator .cbp-qtcontent img{
+        display: none;
+    }
+
+}
+
+
+
 
 #footer {
 
@@ -581,4 +593,6 @@ a {
     flex-basis: 100%;
     text-align: center;
 }
+
+
 
