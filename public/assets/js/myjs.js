@@ -66,7 +66,7 @@ $(document).ready(function() {
 		 * WOW Animation When You Scroll
 		/* ---------------------------------------------- */
 
-		wow = new WOW({
+		var wow = new WOW({
 			mobile: false
 		});
 		wow.init();
@@ -106,6 +106,13 @@ $(document).ready(function() {
     imageCounter: true,
     imageCounterSeparator: ' of '
   });
+
+
+
+  setTimeout(function(){
+	$('.loader').fadeOut()
+	$('body').css('overflow-y',"auto")
+  },3000);
 
 
 })(jQuery);
